@@ -1,10 +1,11 @@
-import DashboardHeader from '@/components/DashboardHeader';
-import FlowDiagram from '@/components/FlowDiagram';
-import InfoStrip from '@/components/InfoStrip';
-import StatGrid from '@/components/StatGrid';
-import { C } from '@/constants/batteryTheme';
-import React from 'react';
-import { ScrollView, StatusBar, StyleSheet, View } from 'react-native';
+import AlertBanner from "@/components/AlertBanner";
+import DashboardHeader from "@/components/DashboardHeader";
+import FlowDiagram from "@/components/FlowDiagram";
+import InfoStrip from "@/components/InfoStrip";
+import StatGrid from "@/components/StatGrid";
+import { C } from "@/constants/batteryTheme";
+import React from "react";
+import { ScrollView, StatusBar, StyleSheet, View } from "react-native";
 
 export default function LiveMonitor() {
   return (
@@ -18,6 +19,7 @@ export default function LiveMonitor() {
         <FlowDiagram />
         <InfoStrip />
         <StatGrid />
+        <AlertBanner />
         <View style={{ height: 24 }} />
       </ScrollView>
     </View>

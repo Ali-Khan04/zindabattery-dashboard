@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "reactivate",
-    "slug": "reactivate",
+    "name": "Zinda Tech",
+    "slug": "zinda-tech",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/logo.png",
     "scheme": "reactivate",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
