@@ -72,7 +72,7 @@ export default function VoltageTrendChart({
           <Text style={trend.rangeLabel}>Max {max.toFixed(2)}V</Text>
         </View>
       </View>
-      <Text style={trend.note}>Mock data</Text>
+      <Text style={trend.note}>Sample Readings</Text>
     </View>
   );
 }

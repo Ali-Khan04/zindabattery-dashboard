@@ -8,6 +8,7 @@ export const DEFAULT_SETTINGS = {
   socLowAlert: 30,
   overcurrentCutoff: 60,
   voltageDeviationFault: 150, // mV
+  // only capacity is used in the mock app, but we can add more settings later
   capacityAh: 100,
 };
 

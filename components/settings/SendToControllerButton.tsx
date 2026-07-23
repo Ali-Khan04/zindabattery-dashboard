@@ -9,7 +9,7 @@ export default function SendToControllerButton({
 }) {
   return (
     <TouchableOpacity style={s.button} onPress={onPress}>
-      <Text style={s.text}>Send to Controller</Text>
+      <Text style={s.text}>Set</Text>
     </TouchableOpacity>
   );
 }
